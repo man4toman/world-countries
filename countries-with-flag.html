@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="js.js"></script>
+</head>
+<body>
+
+<dl id="sample" class="dropdown">
+    <dt><a href="javascript:void(0)"><span>انتخاب کشور</span></a></dt>
+    <dd>
+        <ul>
+			<li id="Aruba"><a href="javascript:void(0)">آروبا (‪Aruba‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Aargentina"><a href="javascript:void(0)">آرژانتین (‪Argentina‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Albania"><a href="javascript:void(0)">آلبانی (‪Shqipëri‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Germany"><a href="javascript:void(0)">آلمان (‪Deutschland‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Antigua and barbuda"><a href="javascript:void(0)">آنتیگوا و باربودا (‪Antigua &amp; Barbuda‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Andorra"><a href="javascript:void(0)">آندورا (‪Andorra‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Angola"><a href="javascript:void(0)">آنگولا (‪Angola‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Anguilla"><a href="javascript:void(0)">آنگویلا (‪Anguilla‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Austria"><a href="javascript:void(0)">اتریش (‪Österreich‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ethiopia"><a href="javascript:void(0)">اتیوپی (‪Ethiopia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Jordan"><a href="javascript:void(0)">اردن (الأردن)</a><img class="flag" src="" alt="" /></li>
+			<li id="Armenia"><a href="javascript:void(0)">ارمنستان (‪Հայաստան‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Uruguay"><a href="javascript:void(0)">اروگوئه (‪Uruguay‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Eritrea"><a href="javascript:void(0)">اریتره (‪Eritrea‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Uzbekistan"><a href="javascript:void(0)">ازبکستان (‪Oʻzbekiston‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Australia"><a href="javascript:void(0)">استرالیا (‪Australia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Estonia"><a href="javascript:void(0)">استونی (‪Eesti‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Israel"><a href="javascript:void(0)">اسرائیل (ישראל)</a><img class="flag" src="" alt="" /></li>
+			<li id="Slovakia"><a href="javascript:void(0)">اسلواکی (‪Slovensko‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Slovenia"><a href="javascript:void(0)">اسلوونی (‪Slovenija‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Svalbard and Jan Mayen"><a href="javascript:void(0)">اسوالبارد و جان‌ماین (‪Svalbard og Jan Mayen‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Spain"><a href="javascript:void(0)">اسپانیا (‪España‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="South Africa"><a href="javascript:void(0)">افریقای جنوبی (‪South Africa‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Afghanistan"><a href="javascript:void(0)">افغانستان (Afghanistan)</a><img class="flag" src="" alt="" /></li>
+			<li id="Algeria"><a href="javascript:void(0)">الجزایر (‪Algeria‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="El Salvador"><a href="javascript:void(0)">السالوادور (‪El Salvador‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="United Arab Emirates"><a href="javascript:void(0)">امارات متحدهٔ عربی (الإمارات العربية المتحدة)</a><img class="flag" src="" alt="" /></li>
+			<li id="Indonesia"><a href="javascript:void(0)">اندونزی (‪Indonesia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ukraine"><a href="javascript:void(0)">اوکراین (‪Україна‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Uganda"><a href="javascript:void(0)">اوگاندا (‪Uganda‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ecuador"><a href="javascript:void(0)">اکوادور (‪Ecuador‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="United States"><a href="javascript:void(0)">ایالات متحده (‪United States‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Italy"><a href="javascript:void(0)">ایتالیا (‪Italia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Iran"><a href="javascript:void(0)">ایران (‪Iran)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ireland"><a href="javascript:void(0)">ایرلند (‪Ireland‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Iceland"><a href="javascript:void(0)">ایسلند (‪Ísland‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Barbados"><a href="javascript:void(0)">باربادوس (‪Barbados‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bahamas"><a href="javascript:void(0)">باهاما (‪Bahamas‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bahrain"><a href="javascript:void(0)">بحرین (البحرين)</a><img class="flag" src="" alt="" /></li>
+			<li id="Brazil"><a href="javascript:void(0)">برزیل (‪Brasil‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bermuda"><a href="javascript:void(0)">برمودا (‪Bermuda‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Brunei"><a href="javascript:void(0)">برونئی (‪Brunei‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="United Kingdom"><a href="javascript:void(0)">بریتانیا (‪United Kingdom‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Belarus"><a href="javascript:void(0)">بلاروس (‪Беларусь‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bulgaria"><a href="javascript:void(0)">بلغارستان (‪България‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Belgium"><a href="javascript:void(0)">بلژیک (‪Belgium‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Belize"><a href="javascript:void(0)">بلیز (‪Belize‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bangladesh"><a href="javascript:void(0)">بنگلادش (‪বাংলাদেশ‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Benin"><a href="javascript:void(0)">بنین (‪Bénin‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bhutan"><a href="javascript:void(0)">بوتان (‪འབྲུག‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Botswana"><a href="javascript:void(0)">بوتسوانا (‪Botswana‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Burundi"><a href="javascript:void(0)">بوروندی (‪Uburundi‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Burkina Faso"><a href="javascript:void(0)">بورکینافاسو (‪Burkina Faso‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bosnia and Herzegovina"><a href="javascript:void(0)">بوسنی و هرزگوین (‪Bosna i Hercegovina‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bolivia"><a href="javascript:void(0)">بولیوی (‪Bolivia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tajikistan"><a href="javascript:void(0)">تاجیکستان (‪Tajikistan‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tanzania"><a href="javascript:void(0)">تانزانیا (‪Tanzania‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Thailand"><a href="javascript:void(0)">تایلند (‪ไทย‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Taiwan"><a href="javascript:void(0)">تایوان (‪台灣‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Turkmenistan"><a href="javascript:void(0)">ترکمنستان (‪Turkmenistan‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Turkey"><a href="javascript:void(0)">ترکیه (‪Türkiye‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tristan da Cunha"><a href="javascript:void(0)">تریستان دا کونا (‪Tristan da Cunha‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Trinidad and Tobago"><a href="javascript:void(0)">ترینیداد و توباگو (‪Trinidad &amp; Tobago‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tunisia"><a href="javascript:void(0)">تونس (‪Tunisia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tonga"><a href="javascript:void(0)">تونگا (‪Tonga‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tuvalu"><a href="javascript:void(0)">تووالو (‪Tuvalu‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Tokelau"><a href="javascript:void(0)">توکلائو (‪Tokelau‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Togo"><a href="javascript:void(0)">توگو (‪Togo‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Timur-Leste"><a href="javascript:void(0)">تیمور-لسته (‪Timor-Leste‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Jamaica"><a href="javascript:void(0)">جامائیکا (‪Jamaica‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Gibraltar"><a href="javascript:void(0)">جبل‌الطارق (‪Gibraltar‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Jersey"><a href="javascript:void(0)">جرزی (‪Jersey‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ascension Island"><a href="javascript:void(0)">جزایر آسنسیون (‪Ascension Island‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Alland Islands"><a href="javascript:void(0)">جزایر آلاند (‪Åland‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Turks & Caicos Islands"><a href="javascript:void(0)">جزایر تورکس و کایکوس (‪Turks &amp; Caicos Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="South Georgia and the South Sandwich Islands"><a href="javascript:void(0)">جزایر جورجیای جنوبی و ساندویچ جنوبی (‪South Georgia &amp; South Sandwich Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="U.S. Outlying Islands"><a href="javascript:void(0)">جزایر دورافتادهٔ ایالات متحده (‪U.S. Outlying Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Solomon Islands"><a href="javascript:void(0)">جزایر سلیمان (‪Solomon Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Faroe Islands"><a href="javascript:void(0)">جزایر فارو (‪Føroyar‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Falkland Islands"><a href="javascript:void(0)">جزایر فالکلند (ایسلاس مالویناس) (‪Falkland Islands (Islas Malvinas)‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Canary Islands"><a href="javascript:void(0)">جزایر قناری (‪Canarias‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Marshall Islands"><a href="javascript:void(0)">جزایر مارشال (‪Marshall Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Northern Mariana Islands"><a href="javascript:void(0)">جزایر ماریانای شمالی (‪Northern Mariana Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="United States Virgin Islands"><a href="javascript:void(0)">جزایر ویرجین ایالات متحده (‪U.S. Virgin Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="British Virgin Islands"><a href="javascript:void(0)">جزایر ویرجین بریتانیا (‪British Virgin Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Pitcairn Islands"><a href="javascript:void(0)">جزایر پیت‌کرن (‪Pitcairn Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="The Caribbean Netherlands"><a href="javascript:void(0)">جزایر کارائیب هلند (‪Caribbean Netherlands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Clipperton Island"><a href="javascript:void(0)">جزایر کلیپرتون (‪Clipperton Island‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cook Islands"><a href="javascript:void(0)">جزایر کوک (‪Cook Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cocos Islands"><a href="javascript:void(0)">جزایر کوکوس (‪Kepulauan Cocos (Keeling)‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cayman Islands"><a href="javascript:void(0)">جزایر کِیمن (‪Cayman Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Bouvet Island"><a href="javascript:void(0)">جزیرهٔ بووه (‪Bouvet Island‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Isle of Man"><a href="javascript:void(0)">جزیرهٔ من (‪Isle of Man‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Norfolk Island"><a href="javascript:void(0)">جزیرهٔ نورفولک (‪Norfolk Island‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Heard Island & McDonald Islands"><a href="javascript:void(0)">جزیرهٔ هرد و جزایر مک‌دونالد (‪Heard &amp; McDonald Islands‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Christmas Island"><a href="javascript:void(0)">جزیرهٔ کریسمس (‪Christmas Island‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Azerbaijan"><a href="javascript:void(0)">جمهوری آذربایجان (‪Azərbaycan‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Republic of Central Africa"><a href="javascript:void(0)">جمهوری افریقای مرکزی (‪République centrafricaine‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Dominican Republic"><a href="javascript:void(0)">جمهوری دومینیکن (‪República Dominicana‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Czech Republic"><a href="javascript:void(0)">جمهوری چک (‪Česko‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Antarctica"><a href="javascript:void(0)">جنوبگان (‪Antarctica‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Djibouti"><a href="javascript:void(0)">جیبوتی (‪Djibouti‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Denmark"><a href="javascript:void(0)">دانمارک (‪Danmark‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Dominica"><a href="javascript:void(0)">دومینیکا (‪Dominica‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Diego Garcia"><a href="javascript:void(0)">دیه‌گو گارسیا (‪Diego Garcia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Reunion"><a href="javascript:void(0)">رئونیون (‪La Réunion‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Rwanda"><a href="javascript:void(0)">رواندا (‪Rwanda‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Russia"><a href="javascript:void(0)">روسیه (‪Россия‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Romania"><a href="javascript:void(0)">رومانی (‪România‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Zambia"><a href="javascript:void(0)">زامبیا (‪Zambia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Zimbabwe"><a href="javascript:void(0)">زیمبابوه (‪Zimbabwe‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Sao Tome and Principe"><a href="javascript:void(0)">سائوتومه و پرینسیپ (‪São Tomé e Príncipe‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ivory Coast"><a href="javascript:void(0)">ساحل عاج (‪Côte d’Ivoire‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Samoa"><a href="javascript:void(0)">ساموآ (‪Samoa‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="American Samoa"><a href="javascript:void(0)">ساموآی امریکا (‪American Samoa‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="San Marino"><a href="javascript:void(0)">سان‌مارینو (‪San Marino‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ceuta and Melilla"><a href="javascript:void(0)">سبته و ملیله (‪Ceuta y Melilla‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Sri Lanka"><a href="javascript:void(0)">سری‌لانکا (‪ශ්‍රී ලංකාව‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Saint Barthélemy"><a href="javascript:void(0)">سن بارتلمی (‪Saint-Barthélemy‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Saint Lucia"><a href="javascript:void(0)">سنت لوسیا (‪St. Lucia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="St. Martin's"><a href="javascript:void(0)">سنت مارتن (‪Sint Maarten‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Saint Martin"><a href="javascript:void(0)">سنت مارتین (‪Saint-Martin‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="St. Helena"><a href="javascript:void(0)">سنت هلن (‪St. Helena‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Saint Vincent and the Grenadines"><a href="javascript:void(0)">سنت وینسنت و گرنادین (‪St. Vincent &amp; Grenadines‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="St. Kitts & Nevis"><a href="javascript:void(0)">سنت کیتس و نویس (‪St. Kitts &amp; Nevis‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Saint Pierre et Miquelon"><a href="javascript:void(0)">سن پیر و میکلن (‪Saint-Pierre-et-Miquelon‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Senegal"><a href="javascript:void(0)">سنگال (‪Senegal‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Singapore"><a href="javascript:void(0)">سنگاپور (‪Singapore‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Sweden"><a href="javascript:void(0)">سوئد (‪Sverige‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Switzerland"><a href="javascript:void(0)">سوئیس (‪Schweiz‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Swaziland"><a href="javascript:void(0)">سوازیلند (‪Swaziland‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Sudan"><a href="javascript:void(0)">سودان (السودان)</a><img class="flag" src="" alt="" /></li>
+			<li id="South Sudan"><a href="javascript:void(0)">سودان جنوبی (جنوب السودان)</a><img class="flag" src="" alt="" /></li>
+			<li id="Suriname"><a href="javascript:void(0)">سورینام (‪Suriname‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Syria"><a href="javascript:void(0)">سوریه (سوريا)</a><img class="flag" src="" alt="" /></li>
+			<li id="Somalia"><a href="javascript:void(0)">سومالی (‪Soomaaliya‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Sierra Leone"><a href="javascript:void(0)">سیرالئون (‪Sierra Leone‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Seychelles"><a href="javascript:void(0)">سیشل (‪Seychelles‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Chile"><a href="javascript:void(0)">شیلی (‪Chile‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Western Sahara"><a href="javascript:void(0)">صحرای غربی (الصحراء الغربية)</a><img class="flag" src="" alt="" /></li>
+			<li id="Serbia"><a href="javascript:void(0)">صربستان (‪Србија‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Iraq"><a href="javascript:void(0)">عراق (العراق)</a><img class="flag" src="" alt="" /></li>
+			<li id="Saudi Arabia"><a href="javascript:void(0)">عربستان سعودی (المملكة العربية السعودية)</a><img class="flag" src="" alt="" /></li>
+			<li id="Oman"><a href="javascript:void(0)">عمان (عُمان)</a><img class="flag" src="" alt="" /></li>
+			<li id="Ghana"><a href="javascript:void(0)">غنا (‪Gaana‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="France"><a href="javascript:void(0)">فرانسه (‪France‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Palestine"><a href="javascript:void(0)">فلسطین (فلسطين)</a><img class="flag" src="" alt="" /></li>
+			<li id="Finland"><a href="javascript:void(0)">فنلاند (‪Suomi‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Fiji"><a href="javascript:void(0)">فیجی (‪Fiji‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Philippines"><a href="javascript:void(0)">فیلیپین (‪Philippines‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cyprus"><a href="javascript:void(0)">قبرس (‪Κύπρος‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kyrgyzstan"><a href="javascript:void(0)">قرقیزستان (‪Кыргызстан‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kazakhstan"><a href="javascript:void(0)">قزاقستان (‪Казахстан‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Qatar"><a href="javascript:void(0)">قطر (Qatar)</a><img class="flag" src="" alt="" /></li>
+			<li id="British Indian Ocean Territory"><a href="javascript:void(0)">قلمرو بریتانیا در اقیانوس هند (‪British Indian Ocean Territory‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="French Southern and Antarctic Lands"><a href="javascript:void(0)">قلمروهای جنوبی فرانسه (‪Terres australes françaises‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Lao"><a href="javascript:void(0)">لائوس (‪ລາວ‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Lebanon"><a href="javascript:void(0)">لبنان (Lebanon)</a><img class="flag" src="" alt="" /></li>
+			<li id="Latvian"><a href="javascript:void(0)">لتونی (‪Latvija‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Lesotho"><a href="javascript:void(0)">لسوتو (‪Lesotho‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Poland"><a href="javascript:void(0)">لهستان (‪Polska‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Luxembourg"><a href="javascript:void(0)">لوکزامبورگ (‪Luxembourg‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Liberia"><a href="javascript:void(0)">لیبریا (‪Liberia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Libya"><a href="javascript:void(0)">لیبی (ليبيا)</a><img class="flag" src="" alt="" /></li>
+			<li id="Lithuania"><a href="javascript:void(0)">لیتوانی (‪Lietuva‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Liechtenstein"><a href="javascript:void(0)">لیختن‌اشتاین (‪Liechtenstein‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Madagascar"><a href="javascript:void(0)">ماداگاسکار (‪Madagasikara‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Martinique"><a href="javascript:void(0)">مارتینیک (‪Martinique‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Malawi"><a href="javascript:void(0)">مالاوی (‪Malawi‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Malta"><a href="javascript:void(0)">مالت (‪Malta‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Maldives"><a href="javascript:void(0)">مالدیو (‪Maldives‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Malaysia"><a href="javascript:void(0)">مالزی (‪Malaysia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Finance"><a href="javascript:void(0)">مالی (‪Mali‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Macao"><a href="javascript:void(0)">ماکائو (‪澳門‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Mayotte"><a href="javascript:void(0)">مایوت (‪Mayotte‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Hungary"><a href="javascript:void(0)">مجارستان (‪Magyarország‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Morocco"><a href="javascript:void(0)">مراکش (‪Morocco‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Egypt"><a href="javascript:void(0)">مصر (Egypt)</a><img class="flag" src="" alt="" /></li>
+			<li id="Mongolia"><a href="javascript:void(0)">مغولستان (‪Монгол‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Macedonia"><a href="javascript:void(0)">مقدونیه (جمهوری سابقاً یوگسلاو) (‪Република Македонија‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Mauritania"><a href="javascript:void(0)">موریتانی (موريتانيا)</a><img class="flag" src="" alt="" /></li>
+			<li id="Maurice"><a href="javascript:void(0)">موریس (‪Moris‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Mozambique"><a href="javascript:void(0)">موزامبیک (‪Moçambique‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Moldova"><a href="javascript:void(0)">مولداوی (‪Republica Moldova‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Monaco"><a href="javascript:void(0)">موناکو (‪Monaco‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Montserrat"><a href="javascript:void(0)">مونت‌سرات (‪Montserrat‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Montenegro"><a href="javascript:void(0)">مونته‌نگرو (‪Crna Gora‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Mexico"><a href="javascript:void(0)">مکزیک (‪México‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Myanmar"><a href="javascript:void(0)">میانمار (برمه) (‪မြန်မာ‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Micronesia"><a href="javascript:void(0)">میکرونزی (‪Micronesia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Nauru"><a href="javascript:void(0)">نائورو (‪Nauru‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Namibia"><a href="javascript:void(0)">نامیبیا (‪Namibië‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Norway"><a href="javascript:void(0)">نروژ (‪Norge‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Nepal"><a href="javascript:void(0)">نپال (‪नेपाल‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Niger"><a href="javascript:void(0)">نیجر (‪Nijar‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Nigeria"><a href="javascript:void(0)">نیجریه (‪Nigeria‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Niue"><a href="javascript:void(0)">نیوئه (‪Niue‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="New Zealand"><a href="javascript:void(0)">نیوزیلند (‪New Zealand‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Nicaragua"><a href="javascript:void(0)">نیکاراگوئه (‪Nicaragua‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Haiti"><a href="javascript:void(0)">هائیتی (‪Haiti‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Netherlands"><a href="javascript:void(0)">هلند (‪Nederland‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="India"><a href="javascript:void(0)">هند (‪भारत‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Honduras"><a href="javascript:void(0)">هندوراس (‪Honduras‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Hong Kong"><a href="javascript:void(0)">هنگ‌کنگ (‪香港‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Vatican"><a href="javascript:void(0)">واتیکان (‪Città del Vaticano‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Wallis & Futuna"><a href="javascript:void(0)">والیس و فوتونا (‪Wallis &amp; Futuna‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Vanuatu"><a href="javascript:void(0)">وانواتو (‪Vanuatu‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Venezuela"><a href="javascript:void(0)">ونزوئلا (‪Venezuela‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Vietnam"><a href="javascript:void(0)">ویتنام (‪Việt Nam‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Paraguay"><a href="javascript:void(0)">پاراگوئه (‪Paraguay‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Palau"><a href="javascript:void(0)">پالائو (‪Palau‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Panama"><a href="javascript:void(0)">پاناما (‪Panamá‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Papua New Guinea"><a href="javascript:void(0)">پاپوا گینهٔ نو (‪Papua New Guinea‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Pakistan"><a href="javascript:void(0)">پاکستان (Pakistan)</a><img class="flag" src="" alt="" /></li>
+			<li id="Portugal"><a href="javascript:void(0)">پرتغال (‪Portugal‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Peru"><a href="javascript:void(0)">پرو (‪Perú‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="French Polynesia"><a href="javascript:void(0)">پلی‌نزی فرانسه (‪Polynésie française‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Puerto Rico"><a href="javascript:void(0)">پورتوریکو (‪Puerto Rico‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Chad"><a href="javascript:void(0)">چاد (‪Tchad‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="China"><a href="javascript:void(0)">چین (‪中国‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Japan"><a href="javascript:void(0)">ژاپن (‪日本‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Costa Rica"><a href="javascript:void(0)">کاستاریکا (‪Costa Rica‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="New Caledonia"><a href="javascript:void(0)">کالدونیای جدید (‪Nouvelle-Calédonie‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cambodia"><a href="javascript:void(0)">کامبوج (‪កម្ពុជា‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cameroon"><a href="javascript:void(0)">کامرون (‪Cameroun‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Canada"><a href="javascript:void(0)">کانادا (‪Canada‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="South Korea"><a href="javascript:void(0)">کرهٔ جنوبی (‪대한민국‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="North Korea"><a href="javascript:void(0)">کرهٔ شمالی (‪북한‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Croatia"><a href="javascript:void(0)">کرواسی (‪Hrvatska‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Colombia"><a href="javascript:void(0)">کلمبیا (‪Colombia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Congo-Brazzaville"><a href="javascript:void(0)">کنگو - برازویل (‪Congo-Brazzaville‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Congo - Kinshasa"><a href="javascript:void(0)">کنگو - کینشاسا (‪Jamhuri ya Kidemokrasia ya Kongo‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kenya"><a href="javascript:void(0)">کنیا (‪Kenya‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Cuba"><a href="javascript:void(0)">کوبا (‪Cuba‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Curaçao"><a href="javascript:void(0)">کوراسائو (‪Curaçao‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kosovo"><a href="javascript:void(0)">کوزوو (‪Kosovë‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Comoros"><a href="javascript:void(0)">کومورو (جزر القمر)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kuwait"><a href="javascript:void(0)">کویت (الكويت)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kiribati"><a href="javascript:void(0)">کیریباتی (‪Kiribati‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Kipper"><a href="javascript:void(0)">کیپ‌ورد (‪Kabu Verdi‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Gabon"><a href="javascript:void(0)">گابن (‪Gabon‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Gambia"><a href="javascript:void(0)">گامبیا (‪Gambia‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Georgia"><a href="javascript:void(0)">گرجستان (‪საქართველო‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Grenada"><a href="javascript:void(0)">گرنادا (‪Grenada‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guernsey"><a href="javascript:void(0)">گرنزی (‪Guernsey‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Greenland"><a href="javascript:void(0)">گرینلند (‪Kalaallit Nunaat‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guatemala"><a href="javascript:void(0)">گواتمالا (‪Guatemala‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guadeloupe"><a href="javascript:void(0)">گوادلوپ (‪Guadeloupe‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guam"><a href="javascript:void(0)">گوام (‪Guam‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guyana"><a href="javascript:void(0)">گویان (‪Guyana‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guyana française"><a href="javascript:void(0)">گویان فرانسه (‪Guyane française‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guinea"><a href="javascript:void(0)">گینه (‪Guinée‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guinea Ecuatorial"><a href="javascript:void(0)">گینهٔ استوایی (‪Guinea Ecuatorial‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Guinea-Bissau"><a href="javascript:void(0)">گینهٔ بیسائو (‪Guiné-Bissau‬‏)</a><img class="flag" src="" alt="" /></li>
+			<li id="Yemen"><a href="javascript:void(0)">یمن (اليمن)</a><img class="flag" src="" alt="" /></li>
+			<li id="Greece"><a href="javascript:void(0)">یونان (‪Ελλάδα‬‏)</a><img class="flag" src="" alt="" /></li>
+        </ul>
+    </dd>
+</dl>
+<div id="result"></div>
+
+</body>
+</html>
